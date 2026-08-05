@@ -7,4 +7,12 @@
         Console.WriteLine(Multiplication.Multiply(5, 6));
         Console.WriteLine(Division.Divide(7, 8));
     }
+
+    public class Modulo
+    {
+        public static int Mod(int a, int b)
+        {
+            return a % b;
+        }
+    }
 }
