@@ -15,4 +15,38 @@
        return a - b;
    }
 }
+
+    public class Modulo
+    {
+        public static int Mod(int a, int b)
+        {
+            return a % b;
+        }
+    }
+}
+
+// Esta clase implementa la operación suma
+public class Addition
+{
+   public static int Add(int a, int b)
+   {
+       return a + b;
+   }
+}
+// Esta clase implementa la operación multiplicacion public class Multiplication
+public class Multiplication
+{
+   public static int Multiply(int a, int b)
+   {
+       return a * b;
+   }
+}
+
+// Esta clase implementa la operación divide
+public class Division
+{
+    public static double Divide(int a, int b)
+    {
+        return (double)a / b;
+    }
 }
